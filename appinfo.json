@@ -1,0 +1,38 @@
+{
+    "id": "com.grabber.moviedb",
+    "version": "1.4.0",
+    "vendor": "Grabber, Jon Wise",
+    "vendorurl": "http://www.fordmaverick.com/GrabberSoftware",
+    "type": "web",
+    "uiRevision": "2",
+    "main": "index.html",
+    "title": "Movie DB",
+    "icon": "icon.png",
+    "smallicon": "images/icon_32.png",
+    "splashicon": "images/icon_128.png",
+    "splashBackground": "images/splashscreen.png",
+    "copyright": "© Copyright 2104 Grabber Software, 2021 Jon Wise",
+    "noWindow": true,
+    "support": {
+        "url": "http://www.fordmaverick.com/GrabberSoftware",
+        "email": {
+            "address": "GrabberSoftware@fordmaverick.com",
+            "subject": "Support"
+        },
+        "resources": [{
+            "type": "web",
+            "label": "Official Website",
+            "url": "http://www.fordmaverick.com/GrabberSoftware"
+        }]
+    },
+    "universalSearch": {
+        "search": {
+            "displayName": "Movie DB",
+            "url": "com.grabber.moviedb",
+            "launchParam": {
+                "stageName": "justtype",
+                "searchKeyword": "#{searchTerms}"
+            }
+        }
+    }
+}

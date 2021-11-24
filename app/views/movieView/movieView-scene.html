@@ -1,0 +1,69 @@
+<div class="movieView" id="movieView" style="display:none;">
+	<div class="palm-page-header multi-line">
+		<div class="palm-page-header-wrapper">
+			<div class="title" id="movieView-title"></div>
+		</div>
+	</div>
+    <div id="movieView-body">
+        <div class="info-top">
+            <div class="poster-wrapper">
+                <div class="poster" id="movieView-poster"></div>
+				<div class="stars-wrapper" id="stars-wrapper">
+					<div class="stars-empty">
+						<div id="movieView-stars" class="stars-full"></div>
+					</div>					
+				</div>
+            </div>
+            <div class="right-data">			
+                <div class="right-data-row first">
+                    <span class="title">Released:&nbsp;</span>
+                    <span class="released" id="movieView-released"></span>
+                </div>
+                <div class="right-data-row">
+                    <span class="title">Runtime:&nbsp;</span>
+                    <span class="runtime" id="movieView-runtime"></span>
+                </div>
+                <div class="right-data-row">
+                    <span class="title">Movie Rated:&nbsp;</span>
+                    <span class="certification" id="movieView-certification"></span>
+                </div>
+                <div class="right-data-row" id="genres-wrapper">
+                    <span class="title">Genres:&nbsp;</span>
+                    <span class="genres" id="movieView-genres"></span>
+                </div>
+                <div class="right-data-row clear-button-wrapper" style>
+                    <div id="btn_imdb" class="clear-button imdb" x-mojo-touch-feedback="delayed">
+                        <div x-mojo-loc='' class="clear-button-label">IMDB</div>
+                    </div>               
+                    <div id="btn_share" class="clear-button share" x-mojo-touch-feedback="delayed">
+                        <div x-mojo-loc='' class="clear-button-label">Share</div>
+                    </div>
+                </div>
+                <div class="clearit"></div>
+            </div>
+        </div>
+		<div id="details-wrapper">
+			<div class="palm-group overview">
+				<div class="palm-group-title">Overview</div>
+				<div class="palm-list" id="lst_overview" x-mojo-element="List"></div>
+			</div>
+			<div class="palm-group details">
+				<div class="palm-group-title">Details</div>
+				<div class="palm-list" id="lst_details" x-mojo-element="List"></div>
+			</div>
+		</div>
+		<div id="people-wrapper" style="display:none;">
+			<div class="palm-group cast" id="actors-group">
+				<div class="palm-group-title">Actors</div>
+				<div class="palm-list" id="lst_actors" x-mojo-element="List"></div>
+			</div>    
+			<div class="palm-group cast" id="crew-group">
+				<div class="palm-group-title">Crew</div>
+				<div class="palm-list" id="lst_crew" x-mojo-element="List"></div>
+			</div>
+		</div>
+    </div>
+</div>
+<div class="palm-scrim" id="spinner-scrim">
+    <div id="spinnerActivity" x-mojo-element="Spinner" />
+</div>

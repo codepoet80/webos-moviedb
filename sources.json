@@ -1,0 +1,56 @@
+[
+    { "source": "app/models/cookie.js" },
+    { "source": "app/models/TMDbApi.js" },
+    { "source": "app/models/utility.js" },
+    { "source": "app/models/asyncWrappers.js" },
+    { "source": "app/models/updater-model.js" },
+    { "source": "app/assistants/app-assistant.js" },
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "searchList",
+        "source": "app/assistants/searchList-assistant.js"
+    },
+    {
+        "scenes": "movieView",
+        "source": "app/assistants/movieView-assistant.js"
+    },
+    {
+        "scenes": "help",
+        "source": "app/assistants/help-assistant.js"
+    },
+    {
+        "scenes": "version",
+        "source": "app/assistants/version-assistant.js"
+    },
+    {
+        "scenes": "castView",
+        "source": "app/assistants/castView-assistant.js"
+    },
+    {
+        "scenes": "fullImage",
+        "source": "app/assistants/fullImage-assistant.js"
+    },
+    {
+        "scenes": "genreList",
+        "source": "app/assistants/genreList-assistant.js"
+    },
+    {
+        "scenes": "browseList",
+        "source": "app/assistants/browseList-assistant.js"
+    },
+    {
+        "scenes": "multiList",
+        "source": "app/assistants/multiList-assistant.js"
+    },
+    {
+        "scenes": "advancedSearch",
+        "source": "app/assistants/advancedSearch-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    }
+]

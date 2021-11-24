@@ -1,0 +1,49 @@
+<div class="castView" id="castView" style="display:none;">	
+	<div class="palm-page-header multi-line">
+		<div class="palm-page-header-wrapper">
+			<div class="title" id="castView-title"></div>
+		</div>
+	</div>
+	<div id="castView-body">
+		<div class="info-top">
+			<div class="profile-wrapper">
+				<div class="profile" id="castView-profile"></div>
+			</div>
+			<div class="right-data">				
+				<div class="right-data-row first">
+					<span class="title">Born:&nbsp;</span>
+					<span class="birthday" id="castView-birthday"></span>
+					<span class="birthplace" id="castView-birthplace"></span>
+				</div>
+				<div class="right-data-row">
+                    <span class="title">Known Movies:&nbsp;</span>
+                    <span class="movieNum" id="castView-movieNum"></span>
+                </div>
+				<div class="right-data-row clear-button-wrapper" style>
+                    <div id="btn_imdb" class="clear-button imdb" x-mojo-touch-feedback="delayed">
+                        <div x-mojo-loc='' class="clear-button-label">IMDB</div>
+                    </div>               
+                    <div id="btn_share" class="clear-button share" x-mojo-touch-feedback="delayed">
+                        <div x-mojo-loc='' class="clear-button-label">Share</div>
+                    </div>
+                </div>
+				<div class="clearit"></div>
+			</div>
+		</div>
+		<div id="details-wrapper">
+			<div class="palm-group biography">
+				<div class="palm-group-title">Biography</div>
+				<div class="palm-list" id="lst_biography" x-mojo-element="List"></div>
+			</div>
+		</div>
+		<div id="films-wrapper" style="display:none;">
+			<div class="palm-group films" id="films-group">
+				<div class="palm-group-title">Filmography</div>
+				<div class="palm-list" id="lst_films" x-mojo-element="List"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="palm-scrim" id="spinner-scrim">
+    <div id="spinnerActivity" x-mojo-element="Spinner" />
+</div>
