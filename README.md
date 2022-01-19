@@ -1,6 +1,6 @@
 # webos-moviedb
 
-TMDB client for legacy webOS devices.
+TMDB client for legacy webOS devices. Originally created by Silent Apps and updated by Grabber 5.0.
 
 ## What is This?
 
