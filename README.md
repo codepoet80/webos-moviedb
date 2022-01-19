@@ -1,5 +1,7 @@
 # webos-moviedb
 
+![App Icon](icon.png)
+
 TMDB client for legacy webOS devices. Originally created by Silent Apps and updated by Grabber 5.0.
 
 ## What is This?
