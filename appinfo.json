@@ -1,7 +1,7 @@
 {
     "id": "com.grabber.moviedb",
     "version": "1.4.0",
-    "vendor": "Grabber, Jon Wise",
+    "vendor": "Grabber, Jon W",
     "vendorurl": "http://www.fordmaverick.com/GrabberSoftware",
     "type": "web",
     "uiRevision": "2",
@@ -11,7 +11,7 @@
     "smallicon": "images/icon_32.png",
     "splashicon": "images/icon_128.png",
     "splashBackground": "images/splashscreen.png",
-    "copyright": "© Copyright 2104 Grabber Software, 2021 Jon Wise",
+    "copyright": "© Copyright 2104 Grabber Software, 2021 Jon W",
     "noWindow": true,
     "support": {
         "url": "http://www.fordmaverick.com/GrabberSoftware",

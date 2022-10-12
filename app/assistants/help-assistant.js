@@ -11,7 +11,7 @@ HelpAssistant.prototype.setup = function() {
     this.controller.setupWidget(Mojo.Menu.appMenu, { omitDefaultItems: true }, { visible: false });
 
     this.controller.get('appName').innerHTML = Mojo.appInfo.title;
-    this.controller.get('appDetails').innerHTML = $L('v') + Mojo.appInfo.version + $L(' by Grabber Software and Jon Wise');
+    this.controller.get('appDetails').innerHTML = $L('v') + Mojo.appInfo.version + $L(' by Grabber Software and Jon W');
 
     this.controller.get('appCopyright').innerHTML = Mojo.appInfo.copyright || '';
     this.controller.get('appAttribution').innerHTML = "This product uses the TMDb API but is not endorsed or certified by TMDb.<br/><br/>Originally written by Silent Apps."
@@ -26,8 +26,8 @@ HelpAssistant.prototype.setup = function() {
         type: 'web'
     });
     this.linksModel.items.push({
-        text: $L('MeTube by Jon Wise'),
-        detail: 'http://appcatalog.webosarchive.com/showMuseumDetails.php?search=metube&app=1005774',
+        text: $L('MeTube by Jon W'),
+        detail: 'http://appcatalog.webosarchive.org/showMuseumDetails.php?search=metube&app=1005774',
         Class: 'img_metube',
         type: 'web'
     });
@@ -45,7 +45,7 @@ HelpAssistant.prototype.setup = function() {
         type: 'web'
     });
     this.linksModel.items.push({
-        text: $L('Buy Jon Wise a coffee'),
+        text: $L('Buy Jon W a coffee'),
         detail: 'https://www.buymeacoffee.com/codepoet80',
         Class: 'img_donate',
         type: 'web'
@@ -59,7 +59,7 @@ HelpAssistant.prototype.setup = function() {
     });
     this.supportModel.items.push({
         text: $L('webOS Archive'),
-        detail: "http://www.webosarchive.com",
+        detail: "http://www.webosarchive.org",
         Class: 'img_web',
         type: 'web'
     });
